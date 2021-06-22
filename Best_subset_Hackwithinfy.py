@@ -31,5 +31,8 @@ for i in arr:
         size1 = check_triangle(i)
         arr1.append(size1)
 arr1.sort()
-print(arr1[len(arr1)-1])
+if arr1[len(arr1)-1] >0:
+    print(arr1[len(arr1)-1])
+else:
+    print(-1)
         
